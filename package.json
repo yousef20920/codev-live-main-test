@@ -1,0 +1,8 @@
+{
+  "name": "codev-live-main-test",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "for f in src/*.js; do node --check \"$f\" || exit 1; done"
+  }
+}
